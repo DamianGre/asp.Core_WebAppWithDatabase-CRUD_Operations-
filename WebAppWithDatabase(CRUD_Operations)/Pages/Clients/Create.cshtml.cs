@@ -30,7 +30,7 @@ namespace WebAppWithDatabase_CRUD_Operations_.Pages.Clients
             }
 
             try {
-                String connectionString = "Here enter YOUR DATABASE INFOMATION";
+                String connectionString = "Data Source=DESKTOP-JPCJ5T7;Initial Catalog=WebAppWithDatabase;Integrated Security=True";
 
                 SqlConnection connection = new SqlConnection(connectionString);
                 connection.Open();
